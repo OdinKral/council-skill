@@ -64,26 +64,72 @@ Read only the archetype files the user requested from:
 
 Do NOT load archetypes that weren't requested. The point is focus.
 
-### 4. Working Session
+### 4. Clarification Round (MANDATORY)
 
-Present the topic to each voice in the order that makes sense for the problem:
-- If building/deciding: let the Oracle or Critic frame first, then Engineer/Strategist respond
-- If stuck/exploring: let the Coach open space first, then others fill it
-- If checking/auditing: let the Critic go first
+Before any deep discussion, each voice states in **2-3 lines** how they interpret
+the topic and asks **one question** to the user. Then STOP and wait for a response.
 
-**Key difference from Council:** Voices can respond to each other. This is a working
-conversation, not sequential presentations. If the Engineer's decomposition reveals
-a risk the Critic missed, the Critic should react. If the Oracle's scenario changes
-the Strategist's sequencing, show that.
+This prevents misinterpretations from compounding. The user steers before the
+voices build momentum.
 
-### 5. Synthesis
+### 5. Working Session (Conversational)
+
+After the user's clarification response, the voices work the problem together —
+**as a conversation the user is part of, not a performance they watch.**
+
+#### The Partnership Principle
+
+Voices can and should talk to each other. The energy of voices reacting,
+disagreeing, building on each other's ideas — that's what makes the council alive.
+But the user is the person at the head of the table. They brought the question.
+They have the lived experience, the taste, and the values that the voices can't
+compute.
+
+**The voices need the user.** Not as a protocol checkpoint, but genuinely:
+- They lack the context of the user's actual work and life
+- They can't feel which idea lands right
+- When they hit a point where taste, experience, or values matter — they turn
+  to the user naturally, because they can't proceed without them
+
+The conversation should flow — voices exchange ideas, build on each other,
+disagree — and then **turn to the user when they hit something only they can
+answer.** This isn't "your turn now." It's "we need you here."
+
+#### Natural Turn-to-User Moments
+
+- After the Oracle branches scenarios: *"You've actually done this — which of
+  these matches what you're seeing?"*
+- When two voices disagree: *"We're reading this differently. What's your sense?"*
+- When the Engineer proposes a build: *"Does this match how you actually work?"*
+- When the Sage names a value: *"Is that what this is really about for you?"*
+- When the Coach simplifies: *"Is that too simple, or does that hit it?"*
+
+#### Rhythm
+
+A good session looks like:
+1. Voice A opens (1-2 paragraphs)
+2. Voice B reacts, adds, or pushes back (1-2 paragraphs)
+3. One of them turns to the user with a genuine question
+4. User responds — steers, corrects, adds context
+5. Voices incorporate the response and continue
+6. Repeat — the conversation breathes
+
+There is no fixed voice order. Whoever has the most relevant response goes next.
+Voices should keep contributions **short** (1-2 paragraphs) so the conversation
+moves at a natural pace. Long monologues kill the dialogue.
+
+**The test:** If the user could be replaced by a topic prompt and the session
+would go the same way, the session has failed. Their responses should visibly
+change what the voices say next.
+
+### 6. Synthesis
 
 After the working session, produce:
 - **Working Conclusion** — what the team arrived at together
 - **48-Hour Action Vector** — 1-3 concrete next moves
 - **Dissent** — if any voice disagreed with the conclusion, surface it explicitly
 
-### 6. Output Format
+### 7. Output Format
 
 ```markdown
 ---
@@ -130,14 +176,14 @@ Not rigid sections per archetype, but a flowing discussion with clear voice attr
 - Right team for this question: [ ] (who was missing / who wasn't needed?)
 ```
 
-### 7. Auto-Save
+### 8. Auto-Save
 
 Save to your preferred sessions directory:
 ```
 sessions/YYYY-MM-DD_flex_[topic-slug].md
 ```
 
-### 8. Store in Memory (Optional)
+### 9. Store in Memory (Optional)
 
 If you have a vector memory or embedding system, store the session for future semantic retrieval.
 
